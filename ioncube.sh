@@ -25,9 +25,9 @@ fi
 echo -e "\r\e[0;32m[OK]\e[0m Detect Linux architecture: $DIST"
 
 # download tar.gz archive
-echo -e "[In progress] Donwload the tar.gz archive ..."
+echo -e "[In progress] Downloading the ioncube archive ..."
 wget -q "http://downloads2.ioncube.com/loader_downloads/ioncube_loaders_lin_${DIST}.tar.gz"
-echo -e "\r\e[0;32m[OK]\e[0m Donwload the tar.gz archive "
+echo -e "\r\e[0;32m[OK]\e[0m ioncube archive downloaded"
 
 # Move in directory
 echo -e "[In progress] Move to /usr/local ..."
